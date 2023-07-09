@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "FustellaNeutra",
+  "version": "0.1",
+
+  "description": "Show if the client wants a neutral box",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/picking/pkck/ShowPickCKIni"],
+      "js": ["FustellaNeutra.js"]
+    }
+  ]
+
+}

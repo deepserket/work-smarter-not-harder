@@ -5,7 +5,7 @@ var opc = document.getElementsByClassName("small08 nomarg")[0].innerHTML.split("
 
 // removing the "sottoscorta" button and adding a canvas
 // there are several "ubicontent" classes and the index is hardcoded
-// if the number of classes changes it might need to be updated
+// if the number of classes changes the index might need to be updated
 document.getElementsByClassName("ubicontent")[2].innerHTML = '<canvas id="barcode" width="93" height="12" ></canvas>'
 
 JsBarcode("#barcode", opc, {
