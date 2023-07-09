@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "OPC2Barcode",
+  "version": "0.1",
+
+  "description": "Adds a barcode next to the OPC",
+
+  "icons": {
+    "48": "icons/Barcode_icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/picking/pkpep/ShowPickPeP"],
+      "js": ["OPC2Barcode.js"]
+    }
+  ]
+
+}
