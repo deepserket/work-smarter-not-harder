@@ -17,8 +17,12 @@ clients = ['000177',
            '100881'
           ]
 
-for (row of document.getElementsByClassName("small nomarg")){
-    if (clients.includes(row.innerHTML)) {
-        row.innerHTML = "<mark>" + row.innerHTML + "</mark>"
+
+// list of clients displayed on the webpage
+readClients = document.getElementsByClassName("small nomarg")
+
+for (i in readClients){
+    if (clients.includes(readClients[i].innerHTML)) {
+        document.getElementsByClassName("big2bold")[i].innerHTML = "<mark>" + (++i) + "</mark>" // the number of bays starts from 1, that's why there is a "++i"
     }
 }
