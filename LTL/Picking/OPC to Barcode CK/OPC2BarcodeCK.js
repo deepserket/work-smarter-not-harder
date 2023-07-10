@@ -10,7 +10,7 @@ document.getElementsByClassName("ubicontent")[2].innerHTML = '<canvas id="barcod
 
 JsBarcode("#barcode", opc, {
   width:2,
-  height:16,
+  height:20,
   displayValue: false,
   margin: -2,
   marginLeft: 5
