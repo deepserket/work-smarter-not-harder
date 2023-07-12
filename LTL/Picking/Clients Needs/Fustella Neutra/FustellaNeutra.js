@@ -25,6 +25,6 @@ readClients = document.getElementsByClassName("small nomarg")
 
 for (i in readClients){
     if (clients.includes(readClients[i].innerHTML)) {
-        document.getElementsByClassName("big2bold")[i].innerHTML = "<mark>" + (++i) + "</mark>" // the number of bays starts from 1, that's why there is a "++i"
+        document.getElementsByClassName("big2bold")[i].innerHTML = "<mark>" + (++i) + "</mark>" // the bay number starts at 1, that's why there is a "++i"
     }
 }
