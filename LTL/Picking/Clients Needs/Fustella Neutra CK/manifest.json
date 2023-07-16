@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "FustellaNeutra",
+  "name": "FustellaNeutraCK",
   "version": "0.1",
 
   "description": "Show if the client wants a neutral box",
@@ -9,8 +9,14 @@
   "content_scripts": [
     {
       "matches": ["https://*/picking/pkck/ShowPickCKIni"],
-      "js": ["FustellaNeutra.js"]
+      "js": ["FustellaNeutraCK.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "FustellaNeutraCK@LTL",
+  }
+}
 
 }

@@ -1,0 +1,31 @@
+{
+  "addons": {
+
+    "FustellaNeutraCK@LTL": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "TODO"
+        },
+      ]
+    },
+
+    "OPC2BarcodeCK@LTL": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "TODO"
+        },
+      ]
+    },
+
+    "OPC2BarcodePEP@LTL": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "TODO"
+        },
+      ]
+    },
+  }
+}

@@ -15,6 +15,12 @@
       "matches": ["https://*/picking/pkck/ShowPickCK"],
       "js": ["OPC2BarcodeCK.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "OPC2BarcodeCK@LTL",
+  }
+}
 
 }
