@@ -1,6 +1,8 @@
 // list of clients that want a neutral box
 // TODO: the list should be updatable from a server
-clients = ['000177',
+clients = ['000167',
+           '000177',
+           '000335',
            '000601',
            '001121',
            '001269',
